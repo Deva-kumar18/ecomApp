@@ -29,6 +29,9 @@ top: 0;
 li{
     list-style-type: none;
 }
+ul{
+    padding-inline: 0px;
+}
 .product-show{
     display: flex;
    flex-wrap: wrap;
@@ -39,7 +42,7 @@ li{
 }
 .item{
     height: 13rem;
-    width: 10rem;
+    width: 9rem;
     background-color: rgba(255, 255, 255, 0.226);
     margin-right: 5px;
     margin-top: 5px;
@@ -51,9 +54,150 @@ li{
     padding: 5px 5px;
     margin: 5px 5px;
     color: white;
+    margin-left: 6px;
     
 
 }
+@media screen and (width: 768px) {
+    .sideContainer{
+        width: 20vw !important;
+        position: absolute !important;
+        left: 0 !important;
+    }
+    .item{
+        height: 13rem;
+        width: 8rem;
+        background-color: rgba(255, 255, 255, 0.226);
+        margin-right: 5px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        border-radius: 8px;
+        padding: 5px 5px;
+        margin: 5px 5px;
+        color: white;
+        
+    }
+    .l-content{
+        height: 92vh!important;
+        width: 80vw !important;
+        position: absolute !important;
+        top: 8vh !important;
+        left: 20vw !important;
+        background-color: rgba(128, 0, 128, 0.603);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        
+    }
+  }
+  @media screen and (width:320px) {
+    .sideContainer{
+        width: 30vw !important;
+        position: absolute !important;
+        left: 0 !important;
+    }
+    .item{
+        height: 13rem;
+        width: 9rem;
+        background-color: rgba(255, 255, 255, 0.226);
+        margin-right: 5px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        border-radius: 8px;
+        padding: 5px 5px;
+        margin: 5px 5px;
+        color: white;
+        margin-left: 40px;
+        
+    }
+    .l-content{
+        height: 92vh!important;
+        width: 70vw !important;
+        position: absolute !important;
+        top: 8vh !important;
+        left: 30vw !important;
+        background-color: rgba(128, 0, 128, 0.603);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        
+    }
+    
+  }
+  @media screen and (width:425px) {
+    .sideContainer{
+        width: 30vw !important;
+        position: absolute !important;
+        left: 0 !important;
+    }
+    .item{
+        height: 13rem;
+        width: 10rem;
+        background-color: rgba(255, 255, 255, 0.226);
+        margin-right: 5px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        border-radius: 8px;
+        padding: 5px 5px;
+        margin: 5px 5px;
+        color: white;
+        margin-left: 70px;
+    }
+    .l-content{
+        height: 92vh!important;
+        width: 70vw !important;
+        position: absolute !important;
+        top: 8vh !important;
+        left: 30vw !important;
+        background-color: rgba(128, 0, 128, 0.603);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        
+    }
+    
+  }
+  @media screen and (width:375px) {
+    .sideContainer{
+        width: 30vw !important;
+        position: absolute !important;
+        left: 0 !important;
+    }
+    .item{
+        height: 13rem;
+        width: 10rem;
+        background-color: rgba(255, 255, 255, 0.226);
+        margin-right: 5px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 4px;
+        border-radius: 8px;
+        padding: 5px 5px;
+        margin: 5px 5px;
+        color: white;
+        margin-left: 44px;
+    }
+    .l-content{
+        height: 92vh!important;
+        width: 70vw !important;
+        position: absolute !important;
+        top: 8vh !important;
+        left: 30vw !important;
+        background-color: rgba(128, 0, 128, 0.603);
+        overflow-x: hidden;
+        overflow-y: scroll;
+        
+    }
+    
+  }
 .l-content{
     height: 92vh;
     width: 86vw;
@@ -63,4 +207,5 @@ li{
     background-color: rgba(128, 0, 128, 0.603);
     overflow-x: hidden;
     overflow-y: scroll;
+    
 }
