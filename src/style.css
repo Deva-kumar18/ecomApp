@@ -1,0 +1,11 @@
+@import url('./Pages/LayoutPage/LayoutPage.css');
+@import url('./Pages/navbar/NavBar.css');
+@import url('./Pages/Sidebar/Sidebar.css');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}

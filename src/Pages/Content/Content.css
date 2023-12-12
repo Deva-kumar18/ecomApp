@@ -1,0 +1,10 @@
+.content{
+    height: 92vh;
+    width: 86vw;
+    background-color: chartreuse;
+}
+.img{
+    height: 6rem;
+    width: 6rem;
+    background-color: black;
+}
