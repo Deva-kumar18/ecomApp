@@ -209,7 +209,7 @@ ul{
     overflow-y: scroll;
     
 }
-@media screen and (min-width: 380px) and (max-width: 425px) {
+@media screen and (min-width: 330px) and (max-width: 425px) {
     .sideContainer{
         width: 30vw !important;
         position: absolute !important;
@@ -217,7 +217,7 @@ ul{
     }
     .item{
         height: 13rem;
-        width: 7rem;
+        width: 12rem;
         background-color: rgba(255, 255, 255, 0.226);
         margin-right: 5px;
         margin-top: 5px;
@@ -227,7 +227,7 @@ ul{
         row-gap: 4px;
         border-radius: 8px;
         padding: 5px 5px;
-        margin: 5px 5px;
+        margin: 5px 2rem;
         color: white;
        
     }
