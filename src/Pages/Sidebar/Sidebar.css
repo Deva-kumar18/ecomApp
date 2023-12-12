@@ -3,4 +3,16 @@
     width: 14vw;
     background-color: brown;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-btn{
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: none;
+    border-inline: none;
+    background-color: darkseagreen;
+    color: white;
+    font-weight: bold;
 }
