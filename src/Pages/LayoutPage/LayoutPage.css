@@ -209,7 +209,7 @@ ul{
     overflow-y: scroll;
     
 }
-@media screen and (min-width: 400px) and (max-width: 425px) {
+@media screen and (min-width: 380px) and (max-width: 425px) {
     .sideContainer{
         width: 30vw !important;
         position: absolute !important;
